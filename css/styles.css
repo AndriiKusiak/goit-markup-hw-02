@@ -1,0 +1,23 @@
+.body {
+    font-family: "Roboto", sans-serif;
+}
+
+.web {
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+.studio {
+    font-family: "Raleway", sans-serif;
+    color: #2E2F42;
+    text-transform: uppercase;
+}
+
+.nav {
+    color: #2E2F42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
