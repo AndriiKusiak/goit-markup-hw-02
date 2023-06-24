@@ -47,9 +47,20 @@ body {
     letter-spacing: 0.02em;
     color: var(--navyblue-color);
 }
-
 .list-link:hover,
 .list-link:focus {
+    color: var(--active-link-color);
+}
+
+.addr-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+}
+
+.addr-link:hover,
+.addr-link:focus {
     color: var(--active-link-color);
 }
 
