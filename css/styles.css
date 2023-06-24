@@ -97,7 +97,6 @@ p {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    border-radius: 4px;
     background: var(--iris-color);
 }
 
@@ -113,7 +112,6 @@ p {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    border-radius: 4px;
     border: 1px solid var(--cornflower);
     background: var(--cloud-color);
 }
