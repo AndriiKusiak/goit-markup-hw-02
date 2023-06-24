@@ -55,6 +55,7 @@ body {
 
 .list {
     list-style: none;
+    color: var(--slate-color);
 }
 
 .addr-list{
@@ -115,7 +116,23 @@ body {
     background-color: var(--active-link-color);
 }
 
+.team-section {
+    background-color: var(--cloud-color);
+}
+
+.team-list {
+    background-color: var(--white-color);
+}
+
+.footer-paragraph {
+    color: var(--cloud-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .menu-button {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
     color: var(--iris-color);
     text-align: center;
     font-size: 16px;
@@ -138,9 +155,5 @@ body {
 }
 
 .basement .logo-span {
-    color: var(--cloud-color);
-}
-
-.basement p {
     color: var(--cloud-color);
 }
