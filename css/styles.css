@@ -24,28 +24,28 @@ body {
 }
 .logo-link {
     font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
     color: var(--iris-color);
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     font-weight: 800;
+}
+
+.link {
     text-decoration: none;
 }
+
 .logo-span {
     color: var(--navyblue-color);
 }
 
 .list-link {
-    text-decoration: none;
-}
-
-.unordered-list {
-    list-style-type: none;
-}
-
-.addr-list .list-link {
-    color: var(--slate-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-color);
 }
 
 .list-link:hover,
@@ -53,11 +53,19 @@ body {
     color: var(--active-link-color);
 }
 
+.list {
+    list-style: none;
+}
+
+.addr-list{
+    font-style: normal;
+}
+
 .main-section {
     background-color: var(--navyblue-color);
 }
 
-h1 {
+.main-title {
     color: var(--white-color);
     text-align: center;
     font-size: 56px;
@@ -66,7 +74,7 @@ h1 {
     letter-spacing: 1.12px;
 }
 
-h2 {
+.second-tittle {
     color: var(--navyblue-color);
     text-align: center;
     font-size: 36px;
@@ -76,15 +84,15 @@ h2 {
     text-transform: capitalize;
 }
 
-h3 {
+.third-title {
     color: var(--navyblue-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
-p {
+.paragraph {
     color: var(--slate-color);
     font-size: 16px;
     line-height: 1.5;
@@ -92,12 +100,14 @@ p {
 }
 
 .order-button {
+    font-family: "Roboto", sans-serif;
     color: var(--white, #FFF);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
     background: var(--iris-color);
+    cursor: pointer;
 }
 
 .order-button:hover,
