@@ -99,7 +99,7 @@ body {
 
 .gallery-title {
     color: var(--navyblue-color);
-    font-size: 320x;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.72px;
