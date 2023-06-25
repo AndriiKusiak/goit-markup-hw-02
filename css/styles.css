@@ -97,6 +97,16 @@ body {
     letter-spacing: 0.02em;
 }
 
+.gallery-title {
+    color: var(--navyblue-color);
+    font-size: 320x;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+
 .third-title {
     color: var(--navyblue-color);
     font-size: 20px;
